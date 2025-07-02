@@ -1,0 +1,104 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #bdb395;
+}
+section {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 0.1px solid #f6f0f0;
+  box-shadow: 3px 3px 3px;
+  background-color: #f2e2b1;
+  height: 80vh;
+  width: 50vw;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+.inputCtn {
+  display: inline-flex;
+  gap: 1rem;
+  width: 80%;
+}
+
+.inputArea {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#input {
+  border-radius: 10px;
+  line-height: 2;
+  width: 100%;
+  background-color: #bdb395;
+}
+
+#addBtn {
+  height: 2rem;
+  border-radius: 40%;
+  justify-self: center;
+  align-self: flex-end;
+  background-color: #9c9379;
+  color: #161e0a;
+}
+
+#list {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  width: 80%;
+  gap: 0.3rem;
+}
+#list > li,
+.editInput {
+  line-height: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.data,
+.editInput {
+  width: 80%;
+  border: 1px solid #bdb395;
+  box-shadow: 0.2px 0.5px 2px 0.5px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.data > span {
+  display: flex;
+  width: 100%;
+}
+.editInput {
+  background-color: rgb(240, 213, 179);
+}
+
+.btns {
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  height: 2rem;
+}
+
+.btns > button,
+.editBtnSbmt {
+  border-radius: 5px;
+  background-color: #ecd499;
+}
+
+.btns > .remove {
+  background-color: #f4c95e;
+}
