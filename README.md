@@ -23,7 +23,7 @@ A simple and responsive To-Do List web application built with HTML, CSS, and Jav
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mtitus575/to_do_list.git
    cd to_do_list
    ```
 2. **Open the app:**
